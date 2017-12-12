@@ -5,10 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="org.diedrik.uhunt.Home"
+    tools:context="org.diedrik.uhunt.activity.Home"
     tools:showIn="@layout/activity_home">
 
     <TextView
+        android:id="@+id/mensajeSaludo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
