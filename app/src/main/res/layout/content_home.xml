@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="org.diedrik.uhunt.activity.Home"
-    tools:showIn="@layout/activity_home">
+    tools:context="org.diedrik.uhunt.activity.Home">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -20,8 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            card_view:cardCornerRadius="27dp"
-            android:layout_marginTop="6dp">
+            card_view:cardCornerRadius="27dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
