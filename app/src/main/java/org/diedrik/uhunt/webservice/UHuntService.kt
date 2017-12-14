@@ -18,6 +18,9 @@ interface UHuntService {
         }
     }
 
+    @GET("api/uname2uid/{uname}")
+    fun usernameToUserId(@Path("uname") username: String): Call<Int>
+
     @GET("api/poll/{poll-id}")
     fun eventPoll(@Path("poll-id") pollId: Long): Call<List<LiveEvent>>
 }
